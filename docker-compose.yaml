@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      # increases the log level from info to debug
+      - GF_LOG_LEVEL=debug
+      - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+    ports:
+      - '3000:3000'
+    volumes:
+      # - grafana-storage:/var/lib/grafana
+      - ./dashboards:/etc/grafana/provisioning/dashboards
+      - ./datasources:/etc/grafana/provisioning/datasources
+# volumes:
+  # grafana-storage: {}

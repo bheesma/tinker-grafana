@@ -1,0 +1,19 @@
+{
+    "id": 1,
+    "uid": "bdox80x07py4ge",
+    "orgId": 1,
+    "name": "yesoreyeram-infinity-datasource",
+    "type": "yesoreyeram-infinity-datasource",
+    "typeName": "Infinity",
+    "typeLogoUrl": "public/plugins/yesoreyeram-infinity-datasource/img/icon.svg",
+    "access": "proxy",
+    "url": "",
+    "user": "",
+    "database": "",
+    "basicAuth": false,
+    "isDefault": true,
+    "jsonData": {
+        "global_queries": []
+    },
+    "readOnly": false
+}

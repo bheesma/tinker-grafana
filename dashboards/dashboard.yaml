@@ -1,0 +1,13 @@
+# first.yaml
+apiVersion: 1
+
+providers:
+  - name: 'dashboards 1'
+    folder: ''
+    orgId: 1
+    folderUid: ''
+    type: file
+    allowUiUpdates: false
+    updateIntervalSeconds: 60
+    options:
+      path: /etc/grafana/provisioning/dashboards
