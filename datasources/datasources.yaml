@@ -1,0 +1,5 @@
+apiVersion: 1
+
+datasources:
+  - name: DS_YESOREYERAM-INFINITY-DATASOURCE
+    type: yesoreyeram-infinity-datasource
