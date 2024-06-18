@@ -87,7 +87,7 @@
           "root_selector": "",
           "source": "url",
           "type": "csv",
-          "url": "https://raw.githubusercontent.com/bheesma/tinker-grafana/master/products.csv",
+          "url": "https://raw.githubusercontent.com/bheesma/tinker-grafana/master/testdata/products.csv",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -109,7 +109,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Test dashboard 2",
+  "title": "Test dashboard",
   "uid": "edox8nzk4t1c0b",
   "version": 2,
   "weekStart": ""
